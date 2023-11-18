@@ -1,0 +1,36 @@
+.project-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-self: start;
+    gap: 10px;
+}
+
+
+.project-img{
+    width: 100%;
+}
+
+
+
+@media (min-width: 1201px) {
+    .project {
+        width: calc(33% - 10px);
+    }
+
+    
+}
+
+
+@media (min-width: 641px) and (max-width: 1200px) {
+    .project {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 640px) {
+    .project {
+        width: calc(100% - 10px);
+    }
+}
